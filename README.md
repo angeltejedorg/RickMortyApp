@@ -57,7 +57,7 @@ RickyMortyApp/
 All dependencies are injected via **constructor injection** with a **Coordinator**:
 
 - `AppCoordinator` holds the `Repository` and creates ViewModels via factory methods
-- `RickyMortyAppApp` (entry point) wires all dependencies and injects the Coordinator
+- `RickyMortyApp` (entry point) wires all dependencies and injects the Coordinator
 - Views receive ViewModels through initializers, never creating them directly
 
 **Benefits:**
